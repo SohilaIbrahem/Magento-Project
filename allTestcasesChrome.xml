@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jumia-Project">
+
+    <parameter name="browser" value=""/>
+    <listeners>
+        <listener class-name="listener.Listener"/>
+    </listeners>
+
+    <test name="Check that user can create Account">
+        <classes>
+            <class name="testcases.TC01_UserAccountCreation">
+                <methods>
+                    <include name=""/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
